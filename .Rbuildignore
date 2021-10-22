@@ -15,3 +15,5 @@
 ^NHSRplotthedots\.Rcheck$
 ^NHSRplotthedots.*\.tar\.gz$
 ^NHSRplotthedots.*\.tgz$
+
+^tests/testthat/_snaps/
