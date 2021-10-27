@@ -80,7 +80,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">NHSRplotthedots</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
       </span>
     </div>
 
@@ -112,6 +112,9 @@
       <a href="../articles/number-of-points-required.html">Number of points required</a>
     </li>
   </ul>
+</li>
+<li>
+  <a href="../news/index.html">Changelog</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -193,8 +196,9 @@ decrease as improvement, and 'neutral' where neither direction represents an imp
     </tr>
     <tr>
       <th>target</th>
-      <td><p>Specify a field name which contains a target value.
-Field name can be specified using non-standard evaluation (i.e. no quotation marks).</p></td>
+      <td><p>Specify a single value, which will apply the same target to every facet of an SPC chart,
+or named values of targets, where the names correspond to the names of the facets, in order to
+have different targets for each facet. See <code><a href='ptd_target.html'>ptd_target()</a></code>.</p></td>
     </tr>
     <tr>
       <th>trajectory</th>
@@ -267,7 +271,7 @@ logic produced by NHSI. The function can return either a plot or data frame.</p>
 
       <footer>
       <div class="copyright">
-  <p>Developed by Christopher Reading, Simon Wellesley-Miller, Zoë Turner, Tom Jemmett, Tom Smith, Chris Mainey.</p>
+  <p>Developed by Christopher Reading, Simon Wellesley-Miller, Zoë Turner, Tom Jemmett, Tom Smith, Chris Mainey, John MacKintosh.</p>
 </div>
 
 <div class="pkgdown">
